@@ -1,4 +1,4 @@
 # development-environment-configuration
 
-- [windows-frontend-development](./windows-fontEnd/windows-frontend.md)
+- [windows-frontend-development](./windows-frontEnd/windows-frontend.md)
 
