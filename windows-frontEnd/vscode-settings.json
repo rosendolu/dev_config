@@ -1,5 +1,4 @@
 {
-  // Enables/Disables font ligatures.
   "editor.fontLigatures": true,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
@@ -18,7 +17,7 @@
     "vue-html": "html",
     "typescript": "html"
   },
-  // eslint
+
   "eslint.autoFixOnSave": true,
   "eslint.options": {
     "extensions": [".js", ".vue"]
@@ -39,16 +38,8 @@
   "emmet.includeLanguages": {
     "wxml": "html"
   },
-  // Enable/disable automatic updating of import paths when you rename or move a file in VS Code. Requires using TypeScript 2.9 or newer in the workspace.
-  //  - prompt: Prompt on each rename.
-  //  - always: Always update paths automatically.
-  //  - never: Never rename paths and don't prompt.
   "javascript.updateImportsOnFileMove.enabled": "always",
 
-  // Controls how suggestions are pre-selected when showing the suggest list.
-  //  - first: Always select the first suggestion.
-  //  - recentlyUsed: Select recent suggestions unless further typing selects one, e.g. `console.| -> console.log` because `log` has been completed recently.
-  //  - recentlyUsedByPrefix: Select suggestions based on previous prefixes that have completed those suggestions, e.g. `co -> console` and `con -> const`.
   "editor.suggestSelection": "recentlyUsedByPrefix",
 
   "workbench.colorTheme": "Abyss",
@@ -61,12 +52,11 @@
 
   "editor.tabSize": 2,
 
-  // prettier 插件 @vue/prettier 自动格式化 关闭 prettier
+
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "editor.formatOnSave": false,
-  // Enable per-language
+
   "[javascript]": {
-    "editor.formatOnSave": false
   }
 }

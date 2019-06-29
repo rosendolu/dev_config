@@ -15,7 +15,9 @@
 
 ## 开发环境配置
 
-- ### [vscode](https://code.visualstudio.com/)
+- [vscode](https://code.visualstudio.com/)
+
+  - [配置](./vscode.md)
 
 - [typora](https://typora.io/)
 
@@ -26,10 +28,10 @@
 - chrome canary
 
 - [node](https://nodejs.org/zh-cn/download/package-manager/#windows)
-  
+
   - npm
   - nrm
-  
+
   ```shell
   npm i -g nrm  // 安装
        
@@ -37,7 +39,7 @@
   
   nrm use 
   ```
-  
+
 - [git](https://git-scm.com/download/win)
 
   ```shell
