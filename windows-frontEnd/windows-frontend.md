@@ -52,6 +52,8 @@
   ```shell
   配置了代理的情况下  
   git config --global http.proxy http://127.0.0.1:1080
+  // 取消代理
+  git config --global --unset http.proxy
   ```
 
   - git commit
