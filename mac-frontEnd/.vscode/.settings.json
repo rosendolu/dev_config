@@ -1,0 +1,121 @@
+{
+  // vscode config
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "*.wpy": "vue",
+    "*.vue": "vue"
+  },
+  "editor.fontWeight": "600",
+  "workbench.colorTheme": "Monokai Dimmed",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "extensions.autoCheckUpdates": true,
+
+  // bracket pair colorizer
+  "bracketPairColorizer.highlightActiveScope": true,
+  "bracketPairColorizer.showBracketsInGutter": false,
+  // "bracketPairColorizer.showBracketsInRuler":true,
+  // "bracketPairColorizer.rulerPosition":"Right",
+  "bracketPairColorizer.scopeLineCSS": [
+    "borderStyle : solid",
+    "borderWidth : 2px",
+    "borderColor : {color}; opacity: 1"
+  ],
+  "bracketPairColorizer.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    // "backgroundColor : {color}",
+    "borderColor : {color}; opacity: 1"
+  ],
+  "editor.matchBrackets": "never", // 关闭 vscode 默认匹配
+
+  // TODO Highlight
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    "DEBUG:R",
+    "REVIEW:R",
+    "FIXME:R",
+    {
+      "text": "NOTE:R",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "HACK:R",
+      "color": "#000",
+      "isWholeLine": false
+    },
+    {
+      "text": "TODO:R",
+      "color": "red",
+      "border": "1px solid red",
+      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,.2)"
+      //other styling properties goes here ...
+    }
+  ],
+  "todohighlight.defaultStyle": {
+    "color": "red",
+    "backgroundColor": "#ffab00",
+    // "overviewRulerColor": "green",
+    "cursor": "pointer"
+    // "border": "1px solid #eee",
+    // "borderRadius": "2px",
+    // "isWholeLine": false,
+  },
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.md",
+    "**/*.vue",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.tmp.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  "todohighlight.maxFilesForSearch": 5120,
+  "todohighlight.toggleURI": false,
+  // npm  intellisense
+  "npm-intellisense.scanDevDependencies": true, // scan devDependencies
+  "npm-intellisense.showBuildInLibs": true, // show build in libs
+  // "npm-intellisense.recursivePackageJsonLookup": true, //
+  // prettier
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    // "editor.formatOnSave":false,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.vueIndentScriptAndStyle": false,
+  // eslint
+  "eslint.format.enable": true, // format
+  "editor.codeActionsOnSaveTimeout": 750,
+  "editor.codeActionsOnSave": {
+    // auto fix on save
+    "source.fixAll": true
+    // "source.fixAll.eslint": false
+  }
+}
