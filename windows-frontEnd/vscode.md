@@ -9,24 +9,29 @@
 
 ## 插件配置
 
-- Auto Import
-- Bracket Pair Colorizer
-- ESLint
-- GitLens
-- HTML Snippets
-- IntelliSense For css class names in HTML
-- minapp
-- Node Require
-- prettier
-- eslint
-- Vetur
-- npm
-- npm Intellisense
-- One Dark Pro
-- Path Intellisese
-- Project Manager
-- Remote WSL
-- TODO Highlight
+- 前端
+  - 通用插件
+    - Auto Import
+    - Bracket Pair Colorizer
+    - ESLint
+    - GitLens
+    - HTML Snippets
+    - IntelliSense For css class names in HTML
+    - Node Require
+    - prettier
+    - eslint
+    - npm
+    - npm Intellisense
+    - One Dark Pro
+    - Path Intellisese
+    - Project Manager
+    - Remote WSL
+    - TODO Highlight
+  - vue
+    - Vetur
+  - 微信小程序
+    - minapp
+  - weex
 
 ### Bracket Pair Colorizer
 
