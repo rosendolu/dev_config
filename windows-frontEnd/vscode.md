@@ -25,13 +25,22 @@
     - One Dark Pro
     - Path Intellisese
     - Project Manager
-    - Remote WSL
     - TODO Highlight
+    - 30 seconds of code
+    - css Peek
+    - hex editor
+    - open in browser
+    - Regexp Explain
+    - Remote Development
+  - Debug
+    - Debug Visulizer
   - vue
     - Vetur
   - 微信小程序
     - minapp
   - weex
+  - shell
+    - shellman
 
 ### Bracket Pair Colorizer
 
